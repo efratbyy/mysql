@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS Lec1;
+
+CREATE DATABASE IF NOT EXISTS lec1;
+
+USE lec1;
+
+DROP TABLE IF EXISTS students;
+
+CREATE TABLE students(studentId INTEGER, fullname VARCHAR(30));
+
+INSERT INTO students VALUES(1, 'Dave'), (2, 'Mike');
